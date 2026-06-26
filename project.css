@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     font-family: arial; 
@@ -259,4 +260,35 @@ ul a{
     font-size: 0.7rem;
     text-align: center;
     padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .nav-search{
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .panel{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .panel-ops{
+        width: 100%;
+    }
+
+    .hero-message{
+        width: 95%;
+        text-align: center;
+    }
+
+    .box{
+        width: 90%;
+    }
 }
